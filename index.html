@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 시계</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="digital-clock">
+            <div class="date-section">
+                <span class="date-info" aria-label="현재 날짜"></span>
+            </div>
+            <div class="time-section">
+                <span class="meridiem" aria-label="오전/오후"></span>
+                <span class="hours" aria-label="시"></span>
+                <span class="time-separator">:</span>
+                <span class="minutes" aria-label="분"></span>
+                <span class="time-separator">:</span>
+                <span class="seconds" aria-label="초"></span>
+            </div>
+            <div class="rss-section">
+                <div class="rss-content" aria-label="기술 뉴스 피드"></div>
+            </div>
+            <button class="fullscreen-btn" aria-label="전체화면 전환" tabindex="0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,7 @@
+services:
+  clock:
+    build: .
+    container_name: digital-clock
+    ports:
+      - "8888:80"
+    restart: unless-stopped 
